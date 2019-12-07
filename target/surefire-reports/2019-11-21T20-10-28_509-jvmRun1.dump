@@ -1,0 +1,20 @@
+# Created at 2019-11-21T20:11:08.324
+java.lang.NoClassDefFoundError: com/relevantcodes/extentreports/ExtentReports
+	at resources.ExtentReporterNG.generateReport(ExtentReporterNG.java:27)
+	at org.testng.TestNG.generateReports(TestNG.java:1062)
+	at org.testng.TestNG.run(TestNG.java:1005)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+Caused by: java.lang.ClassNotFoundException: com.relevantcodes.extentreports.ExtentReports
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 10 more
+
+
